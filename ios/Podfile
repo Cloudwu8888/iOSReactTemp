@@ -1,0 +1,33 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'iOSReactTemp' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for iOSReactTemp
+  pod 'RNMobileCenterShared', '~> 0.7.0'
+  pod 'MobileCenter/Push', '~> 0.10.1'
+  pod 'MobileCenter', '~> 0.10.1'
+
+  
+
+  target 'iOSReactTempTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+target 'iOSReactTemp-tvOS' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+
+  # Pods for iOSReactTemp-tvOS
+
+  target 'iOSReactTemp-tvOSTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
