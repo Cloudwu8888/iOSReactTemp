@@ -17,9 +17,9 @@ import {
   Alert,
   View
 } from 'react-native';
-async function ClickBtn() { 
-   const installId = await MobileCenter.getInstallId();
-   alert(installId);  
+ function ClickBtn() { 
+   const installId =  MobileCenter.getInstallId();
+   alert(installId.Result.toString());  
 }
 
 function ChangeDisable() {  
